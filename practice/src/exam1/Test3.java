@@ -1,4 +1,4 @@
-package operatorsAndStatements;
+package exam1;
 
 /*
     A switch case can accept primitive types: byte, short, int, char; wrapper types: Byte, Short,

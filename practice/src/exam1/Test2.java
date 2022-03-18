@@ -1,4 +1,4 @@
-package operatorsAndStatements;
+package exam1;
 
 /*
     The result for the following code is -100. There are 2 operators involved in this. Unary minus

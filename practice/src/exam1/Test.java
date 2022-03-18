@@ -1,4 +1,4 @@
-package operatorsAndStatements;
+package exam1;
 
 /*
     We have a compilation error because of line 15. Since var is a byte data type, only values between -128 and 127.
