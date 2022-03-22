@@ -32,12 +32,12 @@ public class Test23 {
     public static void main(String[] args) {
         Super s =  new Sub();
 
-        try {
-            s.m1();
-        } catch (FileNotFoundException e) {
-            System.out.println("M");
-        } finally {
-            System.out.println("N");
-        }
+//        try {
+//            s.m1();
+//        } catch (FileNotFoundException e) {
+//            System.out.println("M");
+//        } finally {
+//            System.out.println("N");
+//        }
     }
 }
