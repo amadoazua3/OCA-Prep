@@ -10,7 +10,7 @@ public class Test47 {
 
     public static void main(String[] args) {
 
-        double [] arr = new int[2];
-        System.out.println(arr[0]);
+//        double [] arr = new int[2];
+//        System.out.println(arr[0]);
     }
 }
