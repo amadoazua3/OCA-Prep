@@ -15,26 +15,26 @@ package exam1;
     In the output, null:0 is displayed.
 */
 
-class Student {
-
-    String name;
-    int age;
-
-    void Student() {
-        Student("James", 25);
-    }
-
-    void Student(String name, int age) {
-        this.name = name;
-        this.age = age;
-    }
-}
-
-public class Test27 {
-
-    public static void main(String[] args) {
-
-        Student s = new Student();
-        System.out.println(s.name + ":" + s.age);
-    }
-}
+//class Student {
+//
+//    String name;
+//    int age;
+//
+//    void Student() {
+//        Student("James", 25);
+//    }
+//
+//    void Student(String name, int age) {
+//        this.name = name;
+//        this.age = age;
+//    }
+//}
+//
+//public class Test27 {
+//
+//    public static void main(String[] args) {
+//
+//        Student s = new Student();
+//        System.out.println(s.name + ":" + s.age);
+//    }
+//}
