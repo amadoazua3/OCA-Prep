@@ -18,15 +18,15 @@ package exam1;
 
 public class Test7 {
 
-    public static void change(Message m){
-        m = new Message();
-        m.msg = "Happy Holidays!";
-    }
-
-    public static void main(String[] args) {
-        Message obj = new Message();
-        obj.print();
-        change(obj);
-        obj.print();
-    }
+//    public static void change(Message m){
+//        m = new Message();
+//        m.msg = "Happy Holidays!";
+//    }
+//
+//    public static void main(String[] args) {
+//        Message obj = new Message();
+//        obj.print();
+//        change(obj);
+//        obj.print();
+//    }
 }
