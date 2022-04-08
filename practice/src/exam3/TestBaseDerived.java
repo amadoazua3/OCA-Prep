@@ -17,9 +17,10 @@ class Base {
 
 class Derived extends Base {
 
-//   public void m1() {                           // use this line to fix code
+   public void m1() {                           // use this line to fix code
 //    protected void m1() {                       // or use this line to fix the code
-    void m1() {                                 // using default results in compilation error
+
+//    void m1() {                                 // using default results in compilation error
         System.out.println("Derived: m1()");
     }
 }
