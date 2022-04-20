@@ -11,14 +11,20 @@ package exam5;
 */
 
 class M {
-    public void main(String[] args) { //Line n1
+
+//    public void main(String[] args) { // Original code
+//        System.out.println("M");
+//    }
+
+    public static void main(String[] args) { //Line n1 // Have to add static so the error for line n2 is resolved
         System.out.println("M");
     }
 }
 
 class N extends M {
-    public static void main(String[] args) { //Line n2
-        new M().main(args); //Line n3
+
+    public static void main(String[] args) { //Line n2 // causes the error
+        new M().main(args);
     }
 }
 
