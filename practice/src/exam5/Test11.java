@@ -46,22 +46,22 @@ package exam5;
     KEEP_GOING_ on to the console.
 */
 
-class Super {
-    void Super() {
-        System.out.print("KEEP_");
-    }
-}
-
-class Base extends Super {
-    Base() {
-        Super();
-        System.out.print("GOING_");
-    }
-}
-
-public class Test11 {
-
-    public static void main(String[] args) {
-        new Base();
-    }
-}
+//class Super {
+//    void Super() {
+//        System.out.print("KEEP_");
+//    }
+//}
+//
+//class Base extends Super {
+//    Base() {
+//        Super();
+//        System.out.print("GOING_");
+//    }
+//}
+//
+//public class Test11 {
+//
+//    public static void main(String[] args) {
+//        new Base();
+//    }
+//}
