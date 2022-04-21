@@ -4,7 +4,7 @@ public class Test58 {
 
     public static void main(String[] args) {
         StringBuilder sb = new StringBuilder("TOMATO");
-        System.out.println(sb.reverse().replace("O", "A")); //Line n1
+//        System.out.println(sb.reverse().replace("O", "A")); //Line n1
     }
 }
 
