@@ -7,7 +7,7 @@ interface Multiplier {
 }
 
 class Calculator implements Multiplier {
-    public void multiply(int... x) throws /*INSERT*/ {
+    public void multiply(int... x) throws /*INSERT*/ NullPointerException /*fixes error*/ {
 
     }
 }
