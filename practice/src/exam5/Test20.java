@@ -20,32 +20,32 @@ package exam5;
     At runtime, all three statements, at Line n1, Line n2 and Line n3 would invoke the greet() method of
     Z class, which would print Good Night! three times on to the console.
 */
-
-class X {
-    void greet() {
-        System.out.println("Good Morning!");
-    }
-}
-
-class Y extends X {
-    void greet() {
-        System.out.println("Good Afternoon!");
-    }
-}
-
-class Z extends Y {
-    void greet() {
-        System.out.println("Good Night!");
-    }
-}
-
-public class Test20 {
-
-    public static void main(String[] args) {
-        X x = new Z();
-        x.greet(); //Line n1
-        ((Y)x).greet(); //Line n2
-        ((Z)x).greet(); //Line n3
-    }
-
-}
+//
+//class X {
+//    void greet() {
+//        System.out.println("Good Morning!");
+//    }
+//}
+//
+//class Y extends X {
+//    void greet() {
+//        System.out.println("Good Afternoon!");
+//    }
+//}
+//
+//class Z extends Y {
+//    void greet() {
+//        System.out.println("Good Night!");
+//    }
+//}
+//
+//public class Test20 {
+//
+//    public static void main(String[] args) {
+//        X x = new Z();
+//        x.greet(); //Line n1
+//        ((Y)x).greet(); //Line n2
+//        ((Z)x).greet(); //Line n3
+//    }
+//
+//}
