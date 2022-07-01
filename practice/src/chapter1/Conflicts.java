@@ -8,18 +8,18 @@ package chapter1;
     this happens, you can pick one to use in the import and use the other's fully
     qualified class name to specify that it's special. For example:
 
-*/
 
-//import java.util.Date;
-//
-//public class Conflicts {
-//
-//    Date date;
-//    java.sql.Date sqlDate;
-//
-//}
 
-/*
+    import java.util.Date;
+
+    public class Conflicts {
+
+        Date date;
+        java.sql.Date sqlDate;
+
+    }
+
+
     Or you could have neither with an import and always use the fully qualified class name:
 */
 
