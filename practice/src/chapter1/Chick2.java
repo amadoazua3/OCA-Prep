@@ -19,7 +19,7 @@ public class Chick2 {
 }
 
 /*
-    Order of Initialization
+    Order of Initialization I
 
     When writing code that initializes fields in multiple places, you
     have to keep track of the order of initialization. You will need to
@@ -48,6 +48,12 @@ public class Chick2 {
     of name to "Tiny" and line 11 prints another statement. At this point,
     the constructor is done executing and goes back to the print statement
     on line 16.
+
+    Order matters for the fields and blocks of code. You can’t refer to a
+    variable before it has been initialized:
+
+        { System.out.println(name); } // DOES NOT COMPILE
+        private String name = "Fluffy";
 
 */
 
