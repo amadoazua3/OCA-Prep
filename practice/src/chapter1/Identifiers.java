@@ -13,10 +13,10 @@ public class Identifiers {
 
         // Following are not legal
 
-        String 3DPointClass;        // Can NOT begin with a number
-        String hollywood@vine;      // @ is not a letter, digit, $ or _
-        String *$coffee;            // * is not a letter, digit, $ or _
-        String public;              // public is a reserved word
+//        String 3DPointClass;        // Can NOT begin with a number
+//        String hollywood@vine;      // @ is not a letter, digit, $ or _
+//        String *$coffee;            // * is not a letter, digit, $ or _
+//        String public;              // public is a reserved word
 
     }
 
